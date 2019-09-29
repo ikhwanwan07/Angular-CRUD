@@ -1,0 +1,31 @@
+<div class="container">
+
+  <form>
+    <input class="search" type="text" placeholder="Cari..." required>
+    <input class="button" type="button" value="Cari">
+  </form>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Nama</th>
+        <th scope="col">Nama startup</th>
+        <th scope="col">Number</th>
+        <th scope="col">Aksi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+
+        <button class="btn btn-primary">Edit</button>
+        <button class="btn btn-danger">Hapus</button>
+      </tr>
+
+    </tbody>
+  </table>
+  <hr>
+  <button routerLink="bisnis/create" class="btn btn-dark">ADD</button>
+  <button (click)="refresh()" class="btn btn-info">refresh</button>
+</div>
